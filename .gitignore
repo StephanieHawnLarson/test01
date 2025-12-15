@@ -1,24 +1,43 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+# OS / Editor files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
 
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
 
-# dotenv environment variable files
+# Environment variables / secrets
 .env
-.env.development
-.env.test
-.env.production
+.env.*
+!.env.example
 
-# temp directory
-.temp
-.tmp
+# Build output
+dist/
+build/
+out/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Coverage / test output
+coverage/
+*.lcov
+
+# Cache
+.cache/
+.tmp/
